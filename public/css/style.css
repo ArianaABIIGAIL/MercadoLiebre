@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root{
+  --color-amarillo: #EAC926;
+  --color-grisClaro: #ebebeb;
+  --color-grisOscuro: #666666;
+  --color-azul: #03264C;
+  --color-verde: #3AB54B;
+  --color-celeste:#1259c3;
+  --fuente: 'Roboto'
+}
+
+/* color */
+header{
+  background-color: var(--color-amarillo);
+}
+
+/* general */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: var(--fuente);
+  color: var(--color-grisOscuro);
+}
+
+
+/* logo */
+div.logo{
+   padding: 30px 0px 0px 30px;
+   width: 50%;
+}
+
+/* header */
+
+
+header div.top-header p{
+  width: 100%;
+  text-align: center;
+  margin-top: 15px ;
+  color: black;
+}
+
+header{
+  font-size: 12px;
+  font-weight:normal;
+}
+
+div.input{
+  padding: 15px 0px 0px 20px ;
+}
+
+div button {
+  margin-left: 20px;
+}
+
+div.burger-menu i{
+    background-color: var(--color-celeste);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+div.burger-menu{
+  text-align: center;
+}
+
+nav ul li a{
+  text-decoration: none;
+  padding-top: 10px;
+  color:black;
+}
+
+nav ul#menu{
+  margin: 10px;
+  margin-left: 0px;
+  color: black;
+}
+
+/* footer */
+footer{
+   background-color: white;
+   text-align: center;
+   padding-top: 30px;
+   border: 5px solid var(--color-grisClaro);
+   border-top: 15px solid var(--color-grisClaro);
+}
+ 
+footer i{
+  color: var(--color-celeste);
+  font-size: 2em;
+  margin: 0px 0px 10px 0px;
+}
+
+footer section{
+  padding: 30px;
+  font-size: 12px;
+}
+
+
+
+
+
+
